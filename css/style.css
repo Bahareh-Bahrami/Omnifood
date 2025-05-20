@@ -25,7 +25,7 @@ Paragrapg default: 1.6
 --- 02 COLORS
 
 - Primary: #e67e22
-- Tints: #fdf2e9
+- Tints: #fdf2e9, #fae5d3
 - Shaded: #cf711f
 - Accents:
 - Whites: #fff 
@@ -99,7 +99,7 @@ body {
 .heading-secondary {
   font-weight: 700;
   letter-spacing: -0.5px;
-  color: #343a40;
+  color: #333;
 }
 
 .heading-primary {
@@ -290,15 +290,42 @@ body {
 }
 
 /********************************/
+/* FEATURED-IN SECTION */
+/********************************/
+.section-featured {
+  padding: 4.8rem 0 3.2rem 0;
+}
+
+.heading-featured-in {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 2.4rem;
+  color: #888;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logos img {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
+
+/********************************/
 /* HOW IT WORKS SECTION */
 /********************************/
 
 .section-how {
   padding: 9.6rem 0;
+  color: #343a40;
 }
 
-.step-text-box {
-}
 .step-number {
   font-size: 9.8rem;
   font-weight: 600;
@@ -336,7 +363,7 @@ body {
   padding-bottom: 60%;
   background-color: #fdf2e9;
 
-  z-index: -1;
+  z-index: -2;
 }
 
 .step-image-box::after {
