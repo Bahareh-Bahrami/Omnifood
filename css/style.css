@@ -14,7 +14,12 @@ Bold: 700
 - Line heights
 Default: 1
 Small: 1.05
+Medium: 1.2
 Paragrapg default: 1.6
+
+- letter-spacing
+0.75px
+0.5px
 
 
 --- 02 COLORS
@@ -23,7 +28,8 @@ Paragrapg default: 1.6
 - Tints: #fdf2e9
 - Shaded: #cf711f
 - Accents:
-- Grays: #555, #333
+- Whites: #fff 
+- Grays: #ddd, #555, #333, #343a40, 
 
 
 --- 03 SHADOWS
@@ -70,7 +76,8 @@ body {
 
 .grid {
   display: grid;
-  gap: 9.6rem;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
 }
 
 .grid--2--cols {
@@ -83,6 +90,44 @@ body {
 
 .grid--4--cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--center-v {
+  align-items: center;
+}
+.heading-primary,
+.heading-secondary {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #343a40;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.heading-teriary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.subheading {
+  display: block;
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  color: #e67e22;
+  margin-bottom: 1.6rem;
 }
 
 .btn:link,
@@ -200,14 +245,6 @@ body {
 }
 .hero-text-box {
 }
-.heading-primary {
-  font-size: 5.2rem;
-  font-weight: 700;
-  line-height: 1.05;
-  letter-spacing: -0.5px;
-  color: #333;
-  margin-bottom: 3.2rem;
-}
 .hero-description {
   font-size: 2rem;
   line-height: 1.6;
@@ -258,4 +295,58 @@ body {
 
 .section-how {
   padding: 9.6rem 0;
+}
+
+.step-text-box {
+}
+.step-number {
+  font-size: 9.8rem;
+  font-weight: 600;
+  color: #ddd;
+  margin-bottom: 1.2rem;
+}
+
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.step-image-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.step-image-box::before,
+.step-image-box::after {
+  content: " ";
+  display: block;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.step-image-box::before {
+  width: 60%;
+  padding-bottom: 60%;
+  background-color: #fdf2e9;
+
+  z-index: -1;
+}
+
+.step-image-box::after {
+  width: 45%;
+  padding-bottom: 45%;
+  background-color: #fae5d3;
+
+  z-index: -1;
+}
+
+.step-image {
+  width: 35%;
 }
