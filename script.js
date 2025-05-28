@@ -26,7 +26,7 @@ allLinks.forEach(function (link) {
 
     if (href !== "#" && href.startsWith("#")) {
       const sectionEl = document.querySelector(href);
-      sectionEl.scrollIntoView(behavior);
+      sectionEl.scrollIntoView({ behavior: smooth });
     }
 
     if (link.classList.contains("main-nav-link")) {
