@@ -5,4 +5,4 @@ It's tailored to your personal tastes and nutritional needs.<br/>
 <br/>
 Check out the [live demo](https://omnifood-link.netlify.app/) of the application.<br/>
 <br/>
-![ScreenShot](https://github.com/Bahareh-Bahrami/Omnifood/blob/main/img/Screenshot.png)
+![ScreenShot](img/Screenshot.png)
