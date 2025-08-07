@@ -1,8 +1,39 @@
-## Omnifood Responsive WebApp🍴
+# Omnifood Landing Page🍴
 
-Omnifood is an AI-powered food subscription that will make you eat healthy again, 365 days a year.<br/>
-It's tailored to your personal tastes and nutritional needs.<br/>
+A fully responsive landing page for **Omnifood** — a fictional AI-powered food subscription service that helps people eat healthy every day.<br/>
+This project was built to practice modern HTML5 and CSS3 concepts.
+
+🔗 **[Click here to view the live project](https://bahareh-bahrami.github.io/Omnifood/)**<br/>
 <br/>
-Check out the [live demo](https://omnifood-link.netlify.app/) of the application.<br/>
-<br/>
+
+<span style="color: orange;">---</span>
+
+## 🚀 Features
+
+- Clean, semantic HTML5 structure
+- Responsive layout (mobile, tablet, desktop)
+- Modern CSS (Flexbox, Grid, custom properties)
+- Sticky navigation, call-to-action sections, and pricing plans
+- Optimized for performance and accessibility
+
+<span style="color: orange;">---</span>
+
+## 🛠️ Technologies Used
+
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6+)**
+- **Responsive** Design Principles
+
+<span style="color: orange;">---</span>
+
+## 📚 What I Learned
+
+- Structuring a semantic and accessible HTML document
+- Building responsive layouts using CSS Grid and Flexbox
+- Organizing styles using best practices
+- Applying consistent visual hierarchy and spacing
+
+<span style="color: orange;">---</span>
+
 ![ScreenShot](img/Screenshot.png)
