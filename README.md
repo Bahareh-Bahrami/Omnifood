@@ -1,4 +1,4 @@
-# Omnifood Landing Page🍴
+## Omnifood Landing Page🍴
 
 A fully responsive landing page for **Omnifood** — a fictional AI-powered food subscription service that helps people eat healthy every day.<br/>
 This project was built to practice modern HTML5 and CSS3 concepts.
@@ -6,9 +6,9 @@ This project was built to practice modern HTML5 and CSS3 concepts.
 🔗 **[Click here to view the live project](https://bahareh-bahrami.github.io/Omnifood/)**<br/>
 <br/>
 
-<span style="color: orange;">---</span>
+---
 
-## 🚀 Features
+### 🚀 Features
 
 - Clean, semantic HTML5 structure
 - Responsive layout (mobile, tablet, desktop)
@@ -16,24 +16,24 @@ This project was built to practice modern HTML5 and CSS3 concepts.
 - Sticky navigation, call-to-action sections, and pricing plans
 - Optimized for performance and accessibility
 
-<span style="color: orange;">---</span>
+---
 
-## 🛠️ Technologies Used
+### 🛠️ Technologies Used
 
 - **HTML5**
 - **CSS3**
 - **JavaScript (ES6+)**
 - **Responsive** Design Principles
 
-<span style="color: orange;">---</span>
+---
 
-## 📚 What I Learned
+### 📚 What I Learned
 
 - Structuring a semantic and accessible HTML document
 - Building responsive layouts using CSS Grid and Flexbox
 - Organizing styles using best practices
 - Applying consistent visual hierarchy and spacing
 
-<span style="color: orange;">---</span>
+---
 
 ![ScreenShot](img/Screenshot.png)
