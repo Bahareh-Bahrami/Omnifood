@@ -31,7 +31,6 @@ This project was built to practice modern HTML5 and CSS3 concepts.
 
 - Structuring a semantic and accessible HTML document
 - Building responsive layouts using CSS Grid and Flexbox
-- Organizing styles using best practices
 - Applying consistent visual hierarchy and spacing
 
 ---
