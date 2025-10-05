@@ -34,3 +34,4 @@ This project was built to practice modern HTML5 and CSS3 concepts.
 - Applying consistent visual hierarchy and spacing
 
 ---
+![ScreenShot](img/Screenshot.png)
